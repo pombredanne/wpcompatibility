@@ -5,7 +5,6 @@
 */
 
 function codeblocks($atts, $content = null) {
-    echo $content;
     extract(shortcode_atts(array(
         'language' => '',
         'gutter' => ''
